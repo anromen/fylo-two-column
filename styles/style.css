@@ -10,12 +10,30 @@
 }
 
 footer {
-  color: white;
   background-color: #07043B;
+  text-align: left;
+}
+
+footer > address {
+  color: white;
+  text-align: left;
+}
+
+h2, h4 {
+  margin: 25px 0px;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+.first-paragraph {
+  font-size: 90%;
+  margin: 10px;
 }
 
 .content-container {
-  padding: 40px;
+  padding: 25px;
 }
 
 .register-panel {
@@ -35,12 +53,13 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between; 
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .top-nav-link {
   display: inline;
-  margin-left: 25px;
+  margin-left: 10px;
+  font-size: 75%;
 }
 
 .top-nav-link > a {
@@ -48,12 +67,14 @@ footer {
 }
 
 .small-icon {
-  height: 25px;
+  height: 20px;
   width: auto;
 }
 
 .image-decoration {
   width: 100%;
+  position: relative;
+  top: 10px;
 }
 
 .contact {
@@ -69,7 +90,7 @@ footer {
 }
 
 .contact > input {
-  padding-left: 20px;
+  padding-left: 10px;
   text-align: left;
 }
 
@@ -82,10 +103,99 @@ footer {
 
 .big-contact > input,
 .big-contact > button {
-  width: 80%;
+  width: 100%;
 }
 
 .small-contact > input,
 .small-contact > button {
-  width: 60%;
+  width: 80%;
+  height: 40px;
+}
+
+.green-link {
+  display: inline-block;
+  font-size: 90%;
+  color: #3EA48F;
+  margin: 50px 0px;
+  text-decoration: unset;
+
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3EA48F;
+}
+
+.secondary-info > p {
+  text-align: left;
+}
+
+.testimonial {
+  background-color: white;
+  font-size: 70%;
+  text-align: left;
+
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5%;
+}
+
+.testimonial > p {
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.user {
+  display: flex;
+  justify-content: left;
+}
+
+.user > img {
+  width: 35px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.user-info {
+  margin-left: 10px;
+}
+
+.user-info > h5 {
+  font-size: 1em;
+  text-align: left;
+}
+
+.register-panel > h2,
+.register-panel > p {
+  color: white;
+}
+
+.register-panel > p {
+  font-weight: lighter;
+}
+
+.footer-logo {
+  margin: 30px 0px;
+}
+
+.contact-info {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact-info > span  {
+  color: white;
+}
+
+.undecorated-list {
+  margin-top: 50px;
+}
+
+.undecorated-list > li {
+  list-style-type: none;
+}
+
+.undecorated-list > li > a {
+  display: block;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  margin: 20px 0px;
 }
